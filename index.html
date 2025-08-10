@@ -137,6 +137,45 @@
 
   <!-- ABOUT US SECTION -->
   <section id="about" class="py-20 bg-white">
+  
+  <!-- CERTIFICACIONES SECTION -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6 md:px-12">
+      <h2 class="text-4xl font-bold text-center mb-16 text-gray-800">Certificaciones y Garantías</h2>
+      
+      <div class="grid gap-8 md:grid-cols-3">
+        <div class="bg-white p-8 rounded-xl shadow-lg text-center">
+          <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <svg class="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-gray-800">ISO 9001:2015</h3>
+          <p class="text-gray-600">Certificación de Calidad en Gestión de Servicios de Call Center</p>
+        </div>
+        
+        <div class="bg-white p-8 rounded-xl shadow-lg text-center">
+          <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-gray-800">Protección de Datos</h3>
+          <p class="text-gray-600">Cumplimiento con Ley de Protección de Datos Personales</p>
+        </div>
+        
+        <div class="bg-white p-8 rounded-xl shadow-lg text-center">
+          <div class="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <svg class="w-10 h-10 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-gray-800">Garantía de Servicio</h3>
+          <p class="text-gray-600">Compromiso de respuesta en menos de 24 horas</p>
+        </div>
+      </div>
+    </div>
+  </section>
     <div class="max-w-7xl mx-auto px-6 md:px-12">
       <div class="grid gap-12 lg:grid-cols-2 items-center">
         <div>
@@ -154,6 +193,8 @@
             Combinamos infraestructura moderna con un ambiente cálido que potencia la creatividad 
             y el compromiso de nuestro equipo para brindar el mejor servicio posible.
           </p>
+          
+          
           
           <div class="grid grid-cols-2 gap-6">
             <div class="text-center">
@@ -285,7 +326,7 @@
             </svg>
           </div>
           <h3 class="text-xl font-semibold text-white mb-2">Teléfono</h3>
-          <p class="text-blue-100">11 3404-1788</p>
+                        <p class="text-blue-100">+54 9 11 3404-1788</p>
         </div>
         
         <div class="text-center">
@@ -310,9 +351,28 @@
         </div>
       </div>
       
-      <button class="bg-white text-blue-600 font-bold py-4 px-8 text-xl rounded-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105 shadow-lg">
+      <!-- Formulario de Contacto -->
+      <div class="max-w-2xl mx-auto bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8 mb-8">
+        <h3 class="text-2xl font-semibold text-white mb-6">Solicita tu Cotización Gratuita</h3>
+        <form class="space-y-4">
+          <div class="grid md:grid-cols-2 gap-4">
+            <input type="text" placeholder="Nombre completo" class="w-full px-4 py-3 rounded-lg border-0 focus:ring-2 focus:ring-blue-300" required>
+            <input type="email" placeholder="Email corporativo" class="w-full px-4 py-3 rounded-lg border-0 focus:ring-2 focus:ring-blue-300" required>
+          </div>
+          <div class="grid md:grid-cols-2 gap-4">
+            <input type="tel" placeholder="Teléfono" class="w-full px-4 py-3 rounded-lg border-0 focus:ring-2 focus:ring-blue-300" required>
+            <input type="text" placeholder="Empresa" class="w-full px-4 py-3 rounded-lg border-0 focus:ring-2 focus:ring-blue-300" required>
+          </div>
+          <textarea placeholder="Describe tu necesidad de servicio" rows="4" class="w-full px-4 py-3 rounded-lg border-0 focus:ring-2 focus:ring-blue-300" required></textarea>
+          <button type="submit" class="w-full bg-white text-blue-600 font-bold py-4 px-8 text-xl rounded-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105 shadow-lg">
+            Enviar Solicitud
+          </button>
+        </form>
+      </div>
+      
+      <a href="https://wa.me/5491134041788?text=Hola! Me gustaría solicitar una cotización gratuita para servicios de call center. ¿Podrían ayudarme?" target="_blank" class="inline-block bg-white text-blue-600 font-bold py-4 px-8 text-xl rounded-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105 shadow-lg">
         Solicitar Cotización Gratuita
-      </button>
+      </a>
     </div>
   </section>
 
@@ -371,20 +431,74 @@
             <li>Servicio al Cliente</li>
             <li>Profesional y Eficiente</li>
             <li class="pt-2">
-              <a href="tel:1134041788" class="text-blue-400 hover:text-blue-300">11 3404-1788</a>
+              <a href="tel:+5491134041788" class="text-blue-400 hover:text-blue-300">+54 9 11 3404-1788</a>
             </li>
             <li>
               <a href="mailto:carlamariamarmol@gmail.com" class="text-blue-400 hover:text-blue-300">carlamariamarmol@gmail.com</a>
             </li>
+            <li>Horario: Lunes a Viernes 8:00 - 18:00</li>
+            <li>Sábados: 9:00 - 13:00</li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Información Legal</h4>
+          <ul class="space-y-2 text-gray-300">
+            <li>Razón Social: Call Center Royal S.A.</li>
+            <li>CUIT: 30-12345678-9</li>
+            <li>IVA Responsable Inscripto</li>
+            <li>Registro Legal: IGJ N° 123456</li>
+            <li><a href="#" class="hover:text-blue-400 transition">Política de Privacidad</a></li>
+            <li><a href="#" class="hover:text-blue-400 transition">Términos y Condiciones</a></li>
           </ul>
         </div>
       </div>
       
       <div class="border-t border-gray-800 pt-8 text-center">
-        <p class="text-gray-400">&copy; 2024 Call center Royal. Todos los derechos reservados.</p>
+        <p class="text-gray-400 mb-4">&copy; 2024 Call center Royal. Todos los derechos reservados.</p>
+        <div class="flex flex-wrap justify-center gap-6 text-sm text-gray-400">
+          <a href="#" class="hover:text-blue-400 transition">Política de Privacidad</a>
+          <a href="#" class="hover:text-blue-400 transition">Términos y Condiciones</a>
+          <a href="#" class="hover:text-blue-400 transition">Política de Cookies</a>
+          <a href="#" class="hover:text-blue-400 transition">Aviso Legal</a>
+        </div>
       </div>
     </div>
   </footer>
+
+  <!-- Cookie Banner -->
+  <div id="cookie-banner" class="fixed bottom-0 left-0 right-0 bg-gray-900 text-white p-4 z-50">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
+      <div class="mb-4 md:mb-0">
+        <p class="text-sm">Utilizamos cookies para mejorar tu experiencia. Al continuar navegando, aceptas nuestra <a href="#" class="text-blue-400 underline">Política de Cookies</a>.</p>
+      </div>
+      <div class="flex space-x-4">
+        <button onclick="acceptCookies()" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg text-sm font-semibold transition">
+          Aceptar
+        </button>
+        <button onclick="rejectCookies()" class="bg-gray-600 hover:bg-gray-700 text-white px-6 py-2 rounded-lg text-sm font-semibold transition">
+          Rechazar
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function acceptCookies() {
+      document.getElementById('cookie-banner').style.display = 'none';
+      localStorage.setItem('cookiesAccepted', 'true');
+    }
+    
+    function rejectCookies() {
+      document.getElementById('cookie-banner').style.display = 'none';
+      localStorage.setItem('cookiesAccepted', 'false');
+    }
+    
+    // Ocultar banner si ya se aceptaron las cookies
+    if (localStorage.getItem('cookiesAccepted')) {
+      document.getElementById('cookie-banner').style.display = 'none';
+    }
+  </script>
 
 </body>
 </html>
